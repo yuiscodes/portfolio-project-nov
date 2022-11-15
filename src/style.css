@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: #dbd9cd;
-  --accent-color: #dcdace;
+  --accent-color: #C32525;
   --text-color: #252527;
   --heading-font-family: "Merriweather", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -32,6 +32,10 @@ p {
 
 h1.text-start {
     font-size: 70px;
+}
+
+span {
+    color: var(--accent-color);
 }
 
 .btn-contact {
