@@ -1,19 +1,37 @@
-body {
-    margin-top: 150px;
-  
+:root {
+    --main-bg-color: #DBD9CD;
+    --accent-color: #DCDACE;
+    --text-color: #252527;
+    --heading-font-family: 'Merriweather', serif;
+    --paragraph-font-family: 'Poppins', sans-serif;
     
 }
 
+body, .navbar {
+      background: var(--main-bg-color);
+
+}
+
+body {
+
+      color: var(--text-color);
+}
+
 h1, h2, h3 {
-    font-family: 'Merriweather', serif;
+    font-family: var(--heading-font-family);
     text-align: center;
 }
+
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--paragraph-font-family);
     text-align: center;
 }
 
-.project-section {
-    margin-top: 150px;
+.top-section {
+    padding: 200px 0 100px 0;
+}
+
+.contact-section {
+    padding: 10px;
 }
