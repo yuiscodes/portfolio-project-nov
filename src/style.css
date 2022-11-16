@@ -58,6 +58,11 @@ span {
   padding: 100px 0 100px 0;
 }
 
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .project-link {
   text-align: center;
   font-size: 14px;
