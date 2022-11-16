@@ -23,6 +23,7 @@ h3 {
 p {
   font-family: var(--paragraph-font-family);
   text-align: center;
+  line-height: 1.5;
 }
 
 .hero {
