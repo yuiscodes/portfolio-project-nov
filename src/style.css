@@ -55,6 +55,19 @@ span {
 
 .project-section {
   background: white;
+  padding: 100px 0 100px 0;
+}
+
+.project-link {
+  text-align: center;
+  font-size: 14px;
+}
+.project-link a {
+  color: var(--text-color);
+}
+
+.project-link a:hover {
+  color: var(--accent-color);
 }
 .contact-section {
   padding: 10px;
@@ -62,4 +75,9 @@ span {
 
 .about-page, .contact-page, .work-page {
     padding-top: 100px;
+}
+
+footer {
+  background: var(--main-bg-color);
+  padding: 150px 100px;
 }
