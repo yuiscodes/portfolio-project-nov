@@ -1,8 +1,8 @@
 :root {
   --main-bg-color: #dbd9cd;
-  --accent-color: #C32525;
+  --accent-color: #c32525;
   --text-color: #252527;
-  --heading-font-family: "Merriweather", serif;
+  --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
   color: var(--text-color);
 }
 
-h1,
+
 h2,
 h3 {
   font-family: var(--heading-font-family);
@@ -21,7 +21,7 @@ h3 {
 
 
 p {
-  font-family: var(--paragraph-font-family);
+  font-family: var(--default-font-family);
   text-align: center;
   line-height: 1.5;
 }
@@ -32,26 +32,27 @@ p {
 }
 
 h1.text-start {
-    font-size: 70px;
+  font-size: 70px;
+  font-family: var(--heading-font-family);
 }
 
 span {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .btn-contact {
-    background: var(--main-bg-color);
-    border: 2px solid var(--text-color);
-    color: var(--text-color);
-    font-weight: bold;
-    padding: 6px 40px;
-    border-radius: 24px;
+  background: var(--main-bg-color);
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 6px 40px;
+  border-radius: 24px;
 }
 
 .btn-contact:hover {
-    background: var(--text-color);
-    border: var(--text-color);
-    color: white;
+  background: var(--text-color);
+  border: var(--text-color);
+  color: white;
 }
 
 .project-section {
@@ -79,11 +80,38 @@ h3 {
   padding: 10px;
 }
 
-.about-page, .contact-page, .work-page {
-    padding-top: 100px;
+.about-page,
+.contact-page,
+.work-page {
+  padding-top: 100px;
 }
 
 footer {
   background: var(--main-bg-color);
-  padding: 150px 100px;
+  padding: 100px 100px;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 200px 0 100px 0;
+  }
+
+  h1.text-start {
+    font-size: 44px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  img {
+    display: none;
+  }
+
+  footer {
+    padding: 80px 80px;
+  }
 }
