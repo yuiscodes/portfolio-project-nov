@@ -59,8 +59,9 @@ span {
   border: 2px solid var(--text-color);
   color: var(--text-color);
   font-weight: bold;
-  padding: 6px 40px;
+  padding: 6px 35px;
   border-radius: 24px;
+  font-size: larger;
 }
 
 .btn-contact:hover {
@@ -105,17 +106,34 @@ span {
 
 /* project section end */
 
-
-.about-page,
-.contact-page,
-.work-page {
-  padding-top: 100px;
-}
+/* footer start */
 
 footer {
   background: #EFEFE8;
   padding: 40px 50px;
 }
+
+footer {
+  text-align: center;
+}
+
+.btn-footer {
+   background: var(--main-bg-color);
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 6px 30px;
+  border-radius: 24px;
+  font-size: larger;
+}
+
+.btn-footer:hover {
+  background: var(--text-color);
+  border: var(--text-color);
+  color: white;
+}
+
+/* footer end */
 
 @media (max-width: 700px) {
   .hero {
@@ -155,5 +173,10 @@ footer {
 
   footer {
     padding: 60px 60px;
+  }
+
+  .btn-footer {
+    font-size: smaller;
+    padding: 6px 20px;
   }
 }
