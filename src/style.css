@@ -135,6 +135,21 @@ footer {
 
 /* footer end */
 
+/* project page start */
+
+.project-page {
+  padding: 0 200px 0 200px;
+}
+
+.project-description {
+  padding-top: 100px;
+}
+
+.project-image {
+  border: 2px solid var(--text-color);
+  
+}
+
 @media (max-width: 700px) {
   .hero {
     padding: 200px 0 100px 0;
