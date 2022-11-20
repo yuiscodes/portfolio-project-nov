@@ -72,7 +72,8 @@ span {
 /* about section start */
 
 .about-section {
-  padding: 0 0 100px 0;
+  padding: 0 40px 80px 40px;
+  text-align: center;
 }
 
 /* project section start  */
@@ -89,6 +90,7 @@ span {
   font-size: 30px;
 }
 
+
 .project-link {
   text-align: center;
   font-size: 14px;
@@ -99,7 +101,7 @@ span {
 
 .project-link a:hover {
   color: var(--accent-color);
-}
+} 
 
 /* project section end */
 
@@ -111,8 +113,8 @@ span {
 }
 
 footer {
-  background: var(--main-bg-color);
-  padding: 100px 100px;
+  background: #EFEFE8;
+  padding: 40px 50px;
 }
 
 @media (max-width: 700px) {
@@ -132,8 +134,12 @@ footer {
   }
 
   h3 {
-    font-size: 37px;
+    font-size: 30px;
     
+  }
+
+  p {
+    font-size: 15px;
   }
 
  .about-section {
@@ -148,6 +154,6 @@ footer {
   }
 
   footer {
-    padding: 80px 80px;
+    padding: 60px 60px;
   }
 }
