@@ -27,6 +27,7 @@ h1.text-start {
   font-size: 96px;
   font-family: var(--heading-font-family);
   font-weight: bold;
+  text-shadow: 1px 2px 4px #41413D;
 }
 
 h2 {
