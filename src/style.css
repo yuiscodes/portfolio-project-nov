@@ -138,7 +138,7 @@ footer {
 /* project page start */
 
 .project-page {
-  padding: 0 200px 0 200px;
+  padding: 0 100px 0 100px;
 }
 
 .project-description {
@@ -150,7 +150,7 @@ footer {
   
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .hero {
     padding: 200px 0 100px 0;
   }
@@ -193,5 +193,9 @@ footer {
   .btn-footer {
     font-size: smaller;
     padding: 6px 20px;
+  }
+
+  .project-page {
+    padding: 0 50px 0 50px;
   }
 }
