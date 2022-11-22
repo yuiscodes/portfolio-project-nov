@@ -15,7 +15,7 @@ body {
 
 
 
-h1.text-start {
+h1 {
   font-size: 76px;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -150,7 +150,26 @@ footer {
   
 }
 
-@media (max-width: 770px) {
+/* project page end */
+
+/* about page start */
+.about-page {
+  padding: 200px 40px;
+ 
+   
+}
+
+.about-page h1 {
+  font-size: 64px;
+}
+
+.about-content {
+  margin: 0 28px;
+}
+
+
+
+@media (max-width: 900px) {
   .hero {
     padding: 200px 0 100px 0;
   }
@@ -198,4 +217,24 @@ footer {
   .project-page {
     padding: 0 50px 0 50px;
   }
+
+  .about-page {
+  padding: 150px 10px;
+  text-align: center;
 }
+  .about-page h1 {
+  font-size: 54px;
+  text-align: center;
+
+}
+  
+.about-page h2 {
+  font-size: 24px;
+}
+
+.about-page img {
+  display: block;
+}
+ 
+}
+
