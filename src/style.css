@@ -154,7 +154,7 @@ footer {
 
 /* about page start */
 .about-page {
-  padding: 200px 40px;
+  padding: 200px 40px 100px 40px;
  
    
 }
@@ -165,6 +165,22 @@ footer {
 
 .about-content {
   margin: 0 28px;
+}
+
+.btn-viewproject{
+   background: var(--main-bg-color);
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 6px 25px;
+  border-radius: 24px;
+  font-size: 18px;
+
+}
+.btn-viewproject:hover {
+  background: var(--text-color);
+  border: var(--text-color);
+  color: white;
 }
 
 

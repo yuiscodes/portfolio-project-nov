@@ -29,7 +29,10 @@
     <title>About Me | Yui Serikawa</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      style="background-color: #e5e3d7"
+    >
       <div class="container">
         <a class="navbar-brand" href="/">Yui Serikawa</a>
         <button
@@ -44,18 +47,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
+              <a class="nav-link active" href="/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html">Work</a>
+              <a class="nav-link" href="/work.html">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -64,21 +67,35 @@
     <div class="about-page container">
       <div class="row">
         <div class="col-lg-7">
-        <div class="about-content">
-          <h1>Hi there👋<br>I am Yui Serikawa</h1>
-          <h2>Front-End Developer based in Osaka, Japan</h2>
-          <p class="mt-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure at
-            aliquam fugiat tempora alias architecto consectetur veritatis,
-            ratione dolore, corrupti molestias quasi quam deserunt nihil
-            perspiciatis doloremque eligendi, rerum voluptatum.
-          </p>
-        </div>
+          <div class="about-content">
+            <h1>Hi there👋<br />I am Yui Serikawa</h1>
+            <h2>Front-End Developer based in Osaka, Japan</h2>
+            <p class="mt-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure at
+              aliquam fugiat tempora alias architecto consectetur veritatis,
+              ratione dolore, corrupti molestias quasi quam deserunt nihil
+              perspiciatis doloremque eligendi, rerum voluptatum.
+            </p>
+            <div class="aboutpage-btns mt-4 mb-5 text-center">
+              <a href="project.html" class="btn btn-viewproject"
+                >See my projects</a
+              >
+            </div>
+          </div>
         </div>
         <div class="col-lg-5">
-          <img src="images/myphoto-small.JPG" alt="myphoto" class="img-fluid rounded-3" />
+          <img
+            src="images/myphoto-small.JPG"
+            alt="myphoto"
+            class="img-fluid rounded-3"
+          />
         </div>
       </div>
     </div>
+    <footer id="contact">
+      <h3 class="mb-4">Work inquiry</h3>
+
+      <a href="contact.html" class="btn btn-footer mb-4">Contact</a>
+    </footer>
   </body>
 </html>
