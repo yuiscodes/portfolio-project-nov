@@ -1,6 +1,6 @@
 :root {
-  --main-bg-color: #E5E3D7;
-  --accent-color: #AC8970;
+  --main-bg-color: #e5e3d7;
+  --accent-color: #ac8970;
   --text-color: #393229;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -10,10 +10,6 @@ body {
   font-family: var(--default-font-family);
   color: var(--text-color);
 }
-
-
-
-
 
 h1 {
   font-size: 76px;
@@ -79,18 +75,14 @@ span {
 
 /* project section start  */
 
-
-
 .project-section {
   background: var(--main-bg-color);
   padding: 20px 0 100px 0;
- 
 }
 
 .project-title {
   font-size: 30px;
 }
-
 
 .project-link {
   text-align: center;
@@ -102,14 +94,14 @@ span {
 
 .project-link a:hover {
   color: var(--accent-color);
-} 
+}
 
 /* project section end */
 
 /* footer start */
 
 footer {
-  background: #EFEFE8;
+  background: #efefe8;
   padding: 40px 50px;
 }
 
@@ -118,7 +110,7 @@ footer {
 }
 
 .btn-footer {
-   background: var(--main-bg-color);
+  background: var(--main-bg-color);
   border: 2px solid var(--text-color);
   color: var(--text-color);
   font-weight: bold;
@@ -147,7 +139,6 @@ footer {
 
 .project-image {
   border: 2px solid var(--text-color);
-  
 }
 
 /* project page end */
@@ -155,35 +146,34 @@ footer {
 /* about page start */
 .about-page {
   padding: 200px 40px 100px 40px;
- 
-   
 }
 
 .about-page h1 {
   font-size: 64px;
 }
 
+.about-page p {
+  text-align: left;
+}
+
 .about-content {
   margin: 0 28px;
 }
 
-.btn-viewproject{
-   background: var(--main-bg-color);
+.btn-viewproject {
+  background: var(--main-bg-color);
   border: 2px solid var(--text-color);
   color: var(--text-color);
   font-weight: bold;
   padding: 6px 25px;
   border-radius: 24px;
   font-size: 18px;
-
 }
 .btn-viewproject:hover {
   background: var(--text-color);
   border: var(--text-color);
   color: white;
 }
-
-
 
 @media (max-width: 900px) {
   .hero {
@@ -203,16 +193,15 @@ footer {
 
   h3 {
     font-size: 30px;
-    
   }
 
   p {
     font-size: 15px;
   }
 
- .about-section {
-  padding: 0 0 50px 0;
- }
+  .about-section {
+    padding: 0 0 50px 0;
+  }
 
   .project-title {
     font-size: 26px;
@@ -235,22 +224,23 @@ footer {
   }
 
   .about-page {
-  padding: 150px 10px;
-  text-align: center;
-}
+    padding: 150px 10px;
+    text-align: center;
+  }
   .about-page h1 {
-  font-size: 54px;
-  text-align: center;
+    font-size: 54px;
+    text-align: center;
+  }
 
-}
-  
-.about-page h2 {
-  font-size: 24px;
-}
+  .about-page h2 {
+    font-size: 24px;
+  }
 
-.about-page img {
-  display: block;
-}
- 
-}
+  .about-page img {
+    display: block;
+  }
 
+  .view-btn {
+    text-align: center;
+  }
+}
