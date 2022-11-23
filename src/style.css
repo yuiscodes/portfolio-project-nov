@@ -45,10 +45,6 @@ span {
   background: var(--main-bg-color);
 }
 
-.contact-section {
-  padding: 10px;
-}
-
 .btn-contact {
   background: var(--main-bg-color);
   border: 2px solid var(--text-color);
@@ -65,14 +61,13 @@ span {
   color: white;
 }
 
-/* about section start */
 
 .about-section {
   padding: 0 40px 80px 40px;
   text-align: center;
 }
 
-/* project section start  */
+
 
 .project-section {
   background: var(--main-bg-color);
@@ -95,9 +90,6 @@ span {
   color: var(--accent-color);
 }
 
-/* project section end */
-
-/* footer start */
 
 footer {
   background: #efefe8;
@@ -124,12 +116,10 @@ footer {
   color: white;
 }
 
-/* footer end */
-
-/* project page start */
 
 .project-page, .contact-page {
   padding: 0 80px 0 80px;
+  text-align: left;
 }
 
 .project-description {
@@ -137,29 +127,24 @@ footer {
 }
 
 
-
-/* project page end */
-
-/* about page start */
-.about-page {
-  padding: 200px 40px 100px 40px;
-}
-.about-page img {
-  max-width: 75%;
- 
-}
-
-
-.about-page h1 {
+.content-page h1 {
   font-size: 64px;
 }
 
-.about-page p {
+.content-page p {
   text-align: left;
 }
 
+.about-page {
+  padding: 200px 100px;
+}
+
+.about-page h1 {
+  font-size: 60px;
+}
+
 .about-content {
-  margin: 0 28px;
+  margin: 0 26px;
   flex-grow: 1;
 }
 
