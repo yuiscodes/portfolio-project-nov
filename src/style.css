@@ -145,6 +145,11 @@ footer {
 .about-page {
   padding: 200px 40px 100px 40px;
 }
+.about-page img {
+  max-width: 75%;
+ 
+}
+
 
 .about-page h1 {
   font-size: 64px;
@@ -156,6 +161,7 @@ footer {
 
 .about-content {
   margin: 0 28px;
+  flex-grow: 1;
 }
 
 .btn-viewproject {
@@ -226,7 +232,7 @@ footer {
     text-align: center;
   }
   .about-page h1 {
-    font-size: 54px;
+    font-size: 50px;
     text-align: center;
   }
 
