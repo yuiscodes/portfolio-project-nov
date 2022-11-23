@@ -15,7 +15,6 @@ h1 {
   font-size: 76px;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  /* text-shadow: 1px 2px 4px #41413D; */
 }
 
 h2 {
@@ -129,12 +128,12 @@ footer {
 
 /* project page start */
 
-.project-page {
-  padding: 0 100px 0 100px;
+.project-page, .contact-page {
+  padding: 0 80px 0 80px;
 }
 
 .project-description {
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 
