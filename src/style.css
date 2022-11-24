@@ -61,16 +61,13 @@ span {
   color: white;
 }
 
-
 .about-section {
   padding: 0 40px 80px 40px;
   text-align: center;
 }
 
-
-
 .project-section {
-  background: var(--main-bg-color);
+
   padding: 20px 0 100px 0;
 }
 
@@ -89,7 +86,6 @@ span {
 .project-link a:hover {
   color: var(--accent-color);
 }
-
 
 footer {
   background: #efefe8;
@@ -116,9 +112,8 @@ footer {
   color: white;
 }
 
-
 .content-page {
-  padding: 0 80px 0 80px;
+  padding: 30px 80px 0 80px;
   text-align: left;
 }
 
@@ -126,22 +121,23 @@ footer {
   padding-top: 40px;
 }
 
-
 .about-container {
   flex-grow: 1;
 }
 
 .about-content {
-  margin: 200px 80px;
+  margin: 50px 0 70px 0;
 }
 
+.about-content p {
+  text-align: left;
+}
 
 .myphoto {
-  max-width: 75%;
- 
+  max-width: 60%;
 }
 .about-myphoto {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .btn-viewproject {
@@ -164,10 +160,6 @@ footer {
   margin: 10px;
 }
 
-.skill-icon-container {
-  display: flex;
-}
-
 @media (max-width: 900px) {
   .hero {
     padding: 200px 0 100px 0;
@@ -185,24 +177,24 @@ footer {
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   p {
     font-size: 15px;
   }
 
-  .about-section {
+  /* .about-section {
     padding: 0 0 50px 0;
-  }
+  } */
 
   .project-title {
-    font-size: 26px;
+    font-size: 30px;
   }
   img {
     display: none;
   }
-  
+
   .project-image {
     display: block;
   }
@@ -217,11 +209,11 @@ footer {
   }
 
   .content-page {
-    padding: 50px 10px;
+    padding: 80px 20px 80px 20px;
     text-align: center;
   }
   .content-page h1 {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
   }
 
@@ -232,8 +224,23 @@ footer {
   .content-page img {
     display: block;
   }
- 
 
+  .about-myphoto {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .myphoto {
+    max-width: 50%;
+    margin-top: 40px;
+  }
+
+  .about-content p {
+    text-align: center;
+  }
+
+  .about-content {
+    margin: 20px;
+  }
   .view-btn {
     text-align: center;
   }
