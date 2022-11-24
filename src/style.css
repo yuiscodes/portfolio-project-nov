@@ -206,6 +206,10 @@ footer {
   img {
     display: none;
   }
+  
+  .project-image {
+    display: block;
+  }
 
   footer {
     padding: 60px 60px;
