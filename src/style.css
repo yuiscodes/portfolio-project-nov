@@ -181,6 +181,10 @@ footer {
     line-height: 1.5;
   }
 
+  h1.text-center {
+    font-size: 44px;
+  }
+
   h2 {
     font-size: 25px;
     text-align: center;
@@ -197,9 +201,7 @@ footer {
   .project-title {
     font-size: 30px;
   }
-  img {
-    display: none;
-  }
+
 
   .project-image {
     display: block;
@@ -219,7 +221,7 @@ footer {
     text-align: center;
   }
   .content-page h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
   }
 
