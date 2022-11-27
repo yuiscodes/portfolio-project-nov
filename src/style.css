@@ -72,6 +72,8 @@ h3.project-title {
   font-size: 28px;
 }
 
+
+
 .project-link {
   text-align: center;
   font-size: 14px;
@@ -84,16 +86,17 @@ h3.project-title {
   color: var(--accent-color);
 }
 
+
+.project-description {
+  padding-top: 40px;
+}
+
 .content-page {
   padding: 30px 80px 0 80px;
   text-align: left;
   margin-top: 25px;
 }
 
-
-.project-description {
-  padding-top: 40px;
-}
 
 .about-container {
   flex-grow: 1;
