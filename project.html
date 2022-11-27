@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Here are projects Yui has been working on."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -52,10 +56,15 @@
               <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" href="/about.html" title="About Yui">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/project.html">Projects</a>
+              <a
+                class="nav-link active"
+                href="/project.html"
+                title="Yui's projects"
+                >Projects</a
+              >
             </li>
           </ul>
         </div>
@@ -68,12 +77,12 @@
         <div class="col-lg-6">
           <img
             src="images/weather app (3).png"
-            alt="comingsoon"
+            alt="Weather App project preview"
             class="img-fluid project-image"
           />
         </div>
         <div class="col-lg-6 project-description">
-          <h3 class="mb-4" id="project-1">Weather App</h3>
+          <h2 class="mb-4 text-center" id="project-1">Weather App</h2>
           <p class="text-center">
             Built with HTML, CSS, Javascript, Bootstrap and API. Features search
             engine, 5-days forecast and day-time/ night-time mode
@@ -82,12 +91,16 @@
             <a
               href="https://benevolent-fenglisu-dc8f95.netlify.app"
               class="project-view m-4 fw-bold"
+              title="Launch App"
+              target="_blank"
               >Launch App →</a
             >
             <a
               href="https://github.com/yuiceline/weather-app-version3"
               class="project-view fw-bold"
-              >Open-source code →</a
+              title="Git"
+              target="_blank"
+              >Git →</a
             >
           </div>
         </div>
@@ -96,12 +109,12 @@
         <div class="col-lg-6">
           <img
             src="images/comingsoon.png"
-            alt="comingsoon"
+            alt="Comingsoon"
             class="img-fluid project-image"
           />
         </div>
         <div class="col-lg-6 project-description">
-          <h3 class="mb-5" id="project-2">Project #2</h3>
+          <h2 class="mb-5 text-center" id="project-2">Project #2</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             eligendi corrupti maxime ea iure quam nemo reprehenderit nam sed
@@ -114,12 +127,12 @@
         <div class="col-lg-6">
           <img
             src="images/comingsoon.png"
-            alt="comingsoon"
+            alt="Comingsoon"
             class="img-fluid project-image"
           />
         </div>
         <div class="col-lg-6 project-description">
-          <h3 class="mb-5" id="project-3">Project #3</h3>
+          <h2 class="mb-5 text-center" id="project-3">Project #3</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             eligendi corrupti maxime ea iure quam nemo reprehenderit nam sed
@@ -129,18 +142,30 @@
         </div>
       </div>
     </div>
-     <footer id="contact">
+    <footer id="contact">
       <h3 class="mb-4">Let's get in touch</h3>
       <div class="mb-4 text-center">
-        <a href="mailto:yuiserikawa@gmail.com" class="email"
+        <a href="mailto:yuiserikawa@gmail.com" class="email" title="Email Yui"
           >yuiserikawa@gmail.com</a
         >
-      <div class="social-links d-flex justify-content-center">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>  
-        <a href="https://github.com/yuiceline"><i class="fa-brands fa-github"></i></a>
-       
+        <div class="social-links text-center mt-4">
+          <a
+            href="https://github.com/yuiceline"
+            target="_blank"
+            title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
       </div>
-      </div>
+      <p class="text-center project-link mt-5">
+        This project was coded by Yui, and it is
+        <a
+          href="https://github.com/yuiceline/portfolio-project-nov"
+          title="Github Page"
+          target="_blank"
+          >open-sourced</a
+        >👩‍💻
+      </p>
     </footer>
   </body>
 </html>
